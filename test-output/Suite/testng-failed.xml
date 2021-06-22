@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="reviewScreenPath" value="https://www.amazon.in/review/create-review/?asin=B07YDFQ5D5&amp;channel=unknownChannel-thankyou&amp;ref_=ryp_hz_thnk_l_23"/>
+    <parameter name="url" value="https://www.amazon.in/ref=nav_logo"/>
+    <classes>
+      <class name="com.org.tests.AmazonReviewTest">
+        <methods>
+          <include name="validateAddReviewWithUnwantedImage" invocation-numbers="0"/>
+          <include name="validateAddReviewWithImage" invocation-numbers="0"/>
+          <include name="AmazonReview"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateEditReview" invocation-numbers="0"/>
+          <include name="validatesortingReview"/>
+          <include name="validateStoreReviewData"/>
+          <include name="generateExtentReport"/>
+          <include name="validateDataProvider" invocation-numbers="0"/>
+          <include name="saveExtentReport"/>
+        </methods>
+      </class> <!-- com.org.tests.AmazonReviewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.org.tests.AmazonSearchBarTests">
+        <methods>
+          <include name="validateProductNameAfterSearch"/>
+          <include name="validateClearOnSearchBar"/>
+          <include name="validateSearchDataSuggestions"/>
+          <include name="searchBar"/>
+          <include name="tearDown"/>
+          <include name="validateClickOnSearchButton"/>
+          <include name="setUp"/>
+          <include name="validateCopySearchBarValue"/>
+          <include name="generateExtentReport"/>
+          <include name="validateDepartmentProductName"/>
+          <include name="validateHighlightText"/>
+          <include name="saveExtentReport"/>
+        </methods>
+      </class> <!-- com.org.tests.AmazonSearchBarTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="methods">
+  <test name="Test">
+  
+  	<parameter name="browser" value="chrome" />
+  	<parameter name="url" value="https://www.amazon.in/ref=nav_logo" />
+  	<parameter name="reviewScreenPath" value="https://www.amazon.in/review/create-review/?asin=B07YDFQ5D5&amp;channel=unknownChannel-thankyou&amp;ref_=ryp_hz_thnk_l_23" />
+  	
+
+    <classes>
+      <!--  <class name="com.org.tests.AmazonSearchBarTests"/> -->
+      <!--  <class name="com.org.tests.AmazonLoginTests"/> -->
+      <class name="com.org.tests.AmazonReviewTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
