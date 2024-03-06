@@ -109,3 +109,8 @@
 [TestNG-test=Test-3] INFO  AmazonReviewTest  - INFO
 [TestNG-test=Test-3] ERROR AmazonReviewTest  - validateAddReviewWithImage
 [TestNG-test=Test-3] ERROR AmazonReviewTest  - Error
+[TestNG-test=Test-1] INFO  AmazonReviewTest  - INFO
+[TestNG-test=Test-2] INFO  AmazonReviewTest  - INFO
+[TestNG-test=Test-3] INFO  AmazonReviewTest  - INFO
+[TestNG-test=Test-3] ERROR AmazonReviewTest  - validateAddReviewWithImage
+[TestNG-test=Test-3] ERROR AmazonReviewTest  - Error

@@ -52,3 +52,8 @@
 22/06/2021 14:33:52  INFO AmazonReviewTest:114 -INFO
 22/06/2021 14:33:52 ERROR AmazonReviewTest:115 -validateAddReviewWithImage
 22/06/2021 14:34:03 ERROR AmazonReviewTest:127 -Error
+23/06/2021 12:07:15  INFO AmazonReviewTest:83 -INFO
+23/06/2021 12:07:28  INFO AmazonReviewTest:100 -INFO
+23/06/2021 12:07:31  INFO AmazonReviewTest:114 -INFO
+23/06/2021 12:07:31 ERROR AmazonReviewTest:115 -validateAddReviewWithImage
+23/06/2021 12:07:42 ERROR AmazonReviewTest:127 -Error
