@@ -11,7 +11,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   <!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>   --> 
     <java.version>15.0.2</java.version>
   </properties>
 
