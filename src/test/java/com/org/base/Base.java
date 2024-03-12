@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -19,6 +20,9 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.org.config.ProjectProperties;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import static com.org.config.ProjectProperties.props;
 
 public class Base {
@@ -48,8 +52,9 @@ public class Base {
 	@BeforeClass
 	public static void setUp(String url)
 	{
-		System.setProperty("webdriver.chrome.driver", "/Users/rahulsingh/Desktop/MyComputer/Automation/Drivers/chromedriver_91");
-		driver = new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "/Users/rahulsingh/Desktop/MyComputer/Automation/Drivers/chromedriver_91");
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
